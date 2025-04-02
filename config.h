@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-#include "/home/antarctic/.config/suckless/dwm/Themes/white.h"
+#include "/home/antarctic/.config/suckless/dwm/Themes/navy.h"
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
@@ -17,7 +17,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", ""};
+static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII"};
 
 static const Rule rules[] = {
 	/* xprop(1):
