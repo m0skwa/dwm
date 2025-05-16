@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-#include "/home/antarctic/.config/suckless/dwm/Themes/navy.h"
+#include "/home/antarctic/.config/suckless/dwm/Themes/purple.h" /* If from Github: Change to your DWM Themes Folder*/
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
@@ -8,8 +8,10 @@ static const unsigned int gappx	    = 5;	/* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=9" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=10";
+static const int vertpad            = 5;       /* vertical padding of bar */
+static const int sidepad            = 5;       /* horizontal padding of bar */
+static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12" };
+static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -32,7 +34,7 @@ static const Rule rules[] = {
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
 
 static const Layout layouts[] = {
